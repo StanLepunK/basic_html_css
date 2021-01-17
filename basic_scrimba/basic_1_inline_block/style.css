@@ -25,6 +25,32 @@ p {
   margin-bottom: 0;
 }
 
+.button {
+  background: #ffe600;
+  color: black;
+  padding: 20px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.button:hover {
+  background: magenta;
+}
+
+.button_nice_setting {
+  display: inline-block;
+  background: #ffe600;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.button_nice_setting:hover {
+  background: magenta;
+}
+
 strong {
   background: yellow;
   color: black;
