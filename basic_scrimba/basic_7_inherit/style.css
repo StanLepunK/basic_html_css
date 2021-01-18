@@ -1,0 +1,13 @@
+body {
+  color: indigo;
+  /* here we creae a font stack where the user computer choice step by step the font, if the first is missing, the next font is try... etc */
+  font-family: helvetica, arial, sans-serif;
+}
+
+section {
+  color: orange;
+}
+
+p {
+  color: inherit;
+}
