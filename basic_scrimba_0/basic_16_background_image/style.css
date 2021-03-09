@@ -1,0 +1,13 @@
+/* DON'T TOUCH THIS! */
+body {
+  margin: 0;
+  background: #616161;
+}
+
+.bg_img {
+  text-align: left;
+  /* padding: 100rem; */
+  padding: 100rem;
+  background-size: cover;
+  background-image: url("https://raw.githubusercontent.com/StanLepunK/basic_html_css/main/basic_scrimba_1/moon_project/img/the-moon.png");
+}
