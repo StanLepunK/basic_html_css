@@ -1,0 +1,84 @@
+body {
+  font-size: 1.125rem;
+  color: #707070;
+  margin: 0;
+}
+
+/* typo */
+h1 {
+  color: #312614;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h1 span {
+  color: #b7832f;
+}
+
+h2 {
+  color: #745018;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+}
+
+/* layer */
+img {
+  width: 100%;
+}
+
+.container {
+  width: 95%;
+  max-width: 900px;
+  margin: 0 auto;
+  font: arial;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+
+  /* when is not active the background of col element go to bottom */
+  /* align-items: flex-start;  */
+
+  /* like flex-start but the align of the first line of each block */
+  align-items: baseline;
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: stretch; */
+  margin: 1em 0;
+  border: 2px solid cyan;
+}
+
+.col {
+  padding: 1em 0;
+  min-width: 100px;
+  border: 2px solid magenta;
+}
+
+/* herre we remove 15% for the  justify-content: space-between; */
+.col_1 {
+  width: 20%;
+}
+
+.col_2 {
+  width: 45%;
+}
+
+.col_3 {
+  width: 70%;
+}
+
+.col_4 {
+  width: 100%;
+}
+
+.side {
+  color: white;
+  background: #312614;
+  padding: 1em;
+}

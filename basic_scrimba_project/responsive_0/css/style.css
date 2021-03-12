@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-size: 18px;
+  font-size: 1rem;
+  /* font-size: 18px; */
   font-family: "Lato", sans-serif;
   color: #2e354f;
 }
@@ -13,13 +14,15 @@ strong {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3rem;
+  /* font-size: 36px; */
   color: white;
   margin: 0;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 2rem;
+  /* font-size: 24px; */
   color: orange;
 }
 
@@ -45,7 +48,10 @@ section {
   padding: 45px 0;
 }
 .container {
-  width: 620px;
+  width: 90%;
+  max-width: 800px;
+  min-width: 500px;
+  /* width: 620px; */
   margin: 0 auto;
   border: 2px solid magenta;
 }
@@ -59,7 +65,8 @@ section {
 }
 
 img {
-  max-width: 800px;
+  width: 100%;
+  /* max-width: 800px; */
 }
 
 .btn {
@@ -86,4 +93,11 @@ img {
 .btn-accent:hover {
   color: #2e354f;
   background: #d4b44c;
+}
+
+ul {
+  /* relative to parent so 2em is equal 200%*/
+  /* font-size: 2em; */
+  /* relative to html document so 2rem is equal 200%*/
+  font-size: 1.2rem;
 }
