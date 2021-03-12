@@ -2,6 +2,21 @@ body {
   font-size: 1.125rem;
   color: #707070;
   margin: 0;
+  background: black;
+}
+
+@media (min-width: 800px) {
+  body {
+    background: purple;
+  }
+}
+
+/* from a minimum width of 650px and bigger */
+/* @media (min-width: 600px) and (orientation: landscape) { */
+@media (min-width: 1000px) {
+  body {
+    background: orange;
+  }
 }
 
 /* typo */
@@ -54,6 +69,7 @@ img {
   border: 2px solid cyan;
 }
 
+/* COL DESIGN */
 .col {
   padding: 1em 0;
   min-width: 100px;
@@ -73,8 +89,16 @@ img {
   width: 70%;
 }
 
-.col_4 {
-  width: 100%;
+/* Put every thing after because CSS make desing in the order of reading */
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+  .col_1,
+  .col_2,
+  .col_3 {
+    width: 100%;
+  }
 }
 
 .side {
