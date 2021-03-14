@@ -1,0 +1,32 @@
+body {
+  font-size: 30px;
+}
+
+.society {
+  display: flex;
+  flex-direction: column;
+}
+
+.aristocrate {
+  order: 4;
+  color: white;
+  background: blue;
+}
+
+.bourgeois {
+  order: 3;
+  color: noir;
+  background: grey;
+}
+
+.ouvrier {
+  order: 2;
+  color: white;
+  background: red;
+}
+
+.paysan {
+  order: 1;
+  color: brown;
+  background: greenyellow;
+}
