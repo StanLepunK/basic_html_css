@@ -1,0 +1,12 @@
+/* DON'T TOUCH THIS! */
+body {
+  margin: 0;
+  background: #616161;
+}
+
+.set_image {
+  width: 50%;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+}

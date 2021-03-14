@@ -1,0 +1,41 @@
+body {
+  font-size: 30px;
+}
+
+.society {
+  display: flex;
+  flex-direction: column;
+}
+
+.rank {
+  border-bottom: 3px solid black;
+  margin-bottom: 1em;
+}
+
+/*
+The last child is not really mange whene the order is change !
+*/
+.rank:last-child {
+  border: 0;
+  margin: 0;
+}
+
+.aristocrate {
+  order: 4;
+  color: blue;
+}
+
+.bourgeois {
+  order: 3;
+  color: grey;
+}
+
+.ouvrier {
+  order: 2;
+  color: red;
+}
+
+.paysan {
+  order: 1;
+  color: green;
+}
