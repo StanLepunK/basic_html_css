@@ -1,0 +1,15 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 30%;
+}
+
+p {
+  color: indigo;
+}
