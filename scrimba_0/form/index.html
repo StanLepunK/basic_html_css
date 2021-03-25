@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <style>
+      form {
+        background: #efefef;
+        padding: 2em;
+      }
+
+      input[type="text"] {
+        margin-bottom: 1em;
+        padding: 0.25em;
+        border: 0;
+        background: red;
+      }
+
+      button {
+        background: #333;
+        color: white;
+        border: 0;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #404040;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>forms!</h1>
+    <form action="#" method="post">
+      <input type="text" placeholder="placeholder" />
+      <input
+        aria-label="pas compris à quoi ça sert"
+        type="text"
+        value="value"
+      />
+      <input type="password" />
+      <input type="checkbox" />
+
+      <!-- on peut lier de cette façon -->
+      <label
+        >email
+        <input type="email" required />
+      </label>
+
+      <!-- use for and id to link -->
+      <label for="celui-la">couleur</label>
+      <input id="celui-la" type="color" />
+      <button type="submit">Send away!</button>
+    </form>
+  </body>
+</html>

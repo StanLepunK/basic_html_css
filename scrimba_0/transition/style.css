@@ -1,0 +1,37 @@
+/* DON'T TOUCH THIS! */
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* DON'T TOUCH THIS! */
+
+/* ==========================
+	Write your solution here!
+   ========================== */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.btn {
+  text-decoration: none;
+  background: magenta;
+  color: yellow;
+  font-weight: 900;
+  padding: 20px;
+  display: block;
+  transform: scale(1);
+  transition: transform 10000ms, color 500ms, background 1000ms;
+}
+
+.btn:hover,
+.btn:focus {
+  background: yellow;
+  color: cyan;
+  font-size: 30px;
+  transform: scale(10);
+}

@@ -11,6 +11,8 @@ body {
 }
 
 .bg_img {
+  background-color: magenta;
+  background-blend-mode: multiply;
   /* text-align: left; */
   /* padding: 100rem; */
   /* padding: 100px; */
@@ -28,7 +30,7 @@ body {
       rgba(0, 0, 255, 0.5)
     ),
     url("../src_image/Atome_1_knupel.jpg"); */
-  background-size: 100px 100px;
+  background-size: 400px 400px;
   /* background-repeat: repeat-x; */
   /* background-repeat: repeat-y; */
   background-repeat: no-repeat;
